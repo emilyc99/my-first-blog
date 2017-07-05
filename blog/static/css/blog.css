@@ -28,8 +28,12 @@ body {
 .content {
     margin-left: 40px;
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    background-color: #D5D8DC;
 }
+
+.content-container {
+  background-color: #D5D8DC;
+}
+
 
 h1, h2, h3, h4 {
     font-family: 'Bromello', cursive;
