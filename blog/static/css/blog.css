@@ -30,9 +30,10 @@ body {
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.content-container {
+/*.content-container {
+  margin-left: 40px;
   background-color: #D5D8DC;
-}
+}*/
 
 
 h1, h2, h3, h4 {
