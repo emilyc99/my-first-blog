@@ -1,13 +1,20 @@
+@font-face {
+	font-family: 'Bromello';
+	src: url('C:/Users/Emily/fonts/webfontkit-20170705-105105/bromello-webfont.woff');
+	src: local('Bromello'), local('Bromello'), url('C:/Users/Emily/fonts/webfontkit-20170705-105105/bromello-webfont.woff') format('truetype');
+}
+
+
 h1 a {
-    color: #BBDEFB;
-    font-family: 'Lobster';
+    color: #ffffff;
+    font-family: 'Bromello';
 }
 
 body {
-	padding-left: 15px;
+	padding-left: 0px;
 }
 .page-header {
-    background-color: #ff9400;
+    background-color: #BBDEFB;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -20,6 +27,7 @@ body {
 
 .content {
     margin-left: 40px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 h1, h2, h3, h4 {
