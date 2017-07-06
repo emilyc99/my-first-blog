@@ -1,0 +1,27 @@
+{% load staticfiles %}
+<html>
+  <head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    <title>Emily Chang</title>
+  </head>
+
+<body>
+  <header>
+    <div class="page-header">
+      <h1><a href="/">hello world</a></h1>
+      <nav>
+        <a href="{% url 'home' %}">Home</a>
+        <a href="about.html">About</a>
+        <a href="{% url 'blog' %}">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+  <img src="face.jpg" alt="a pic of emily"></img>
+</main>
+
+</body>
+</html>
